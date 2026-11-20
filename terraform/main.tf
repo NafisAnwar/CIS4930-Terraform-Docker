@@ -13,7 +13,7 @@ resource "docker_image" "redis" {
 }
 
 resource "docker_image" "application" {
-  name         = "cis4930-assignment5-app:1.0"
+  name         = "cis4930-assignment5-app:1.2"
   keep_locally = true
 
   build {
